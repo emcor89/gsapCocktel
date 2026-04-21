@@ -20,7 +20,7 @@ const Contact = () => {
             opacity: 0,
             stagger: 0.02,
         })
-        .from('#contact h3, $contact p', {
+        .from('#contact h3, #contact p', {
             opacity : 0,
             yPercent: 100,
             stagger: 0.02,
